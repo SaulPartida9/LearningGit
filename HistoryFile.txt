@@ -1,2 +1,13 @@
 New History filte to track changes to git
 And now this is on github reporitory
+Nex changes to same file
+Git init : inicia el proyecto
+git --list 
+git log file.extension
+git show file.ext
+git add file.extension add to stage
+git rm -chached file.ext unstage
+git commit -m "Commit Message" 
+git status : show status of files changed, tracked, untraked, staged, unstaged, etc
+git add . : stage all modified files
+git ra --cahed . : unstaged all staged files
