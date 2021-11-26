@@ -1,6 +1,13 @@
 New History filte to track changes to git
 And now this is on github reporitory
-Nex changes to same file
+
+With git exist next spaces where wor work with our files:
+1 Work Directory : directory where exist or files and where we made changes on it
+2 Stagging : space to add changed files and prepared to make a git commit
+3 Local repository : space where the commited files are stored in git
+
+4 Remote repository : you sync your local repository to remote repository to pull or/and push changes between they
+
 Git init : inicia el proyecto
 git --list 
 git log file.extension
@@ -11,3 +18,11 @@ git commit -m "Commit Message"
 git status : show status of files changed, tracked, untraked, staged, unstaged, etc
 git add . : stage all modified files
 git ra --cahed . : unstaged all staged files
+git diff commitNumberA  commitNumberB : show difference bettwen tow commits
+checkout : get changes from branch defined or master if not
+
+El comando git checkout + ID del commit nos permite viajar en el tiempo. Podemos volver a cualquier versión anterior de un archivo específico o incluso del proyecto entero. Esta también es la forma de crear ramas y movernos entre ellas.
+
+También hay una forma de hacerlo un poco más “ruda”: usando el comando git reset. En este caso, no solo “volvemos en el tiempo”, sino que borramos los cambios que hicimos después de este commit.
+
+Hay dos formas de usar git reset: con el argumento --hard, borrando toda la información que tengamos en el área de staging (y perdiendo todo para siempre). O, un poco más seguro, con el argumento --soft, que mantiene allí los archivos del área de staging para que podamos aplicar nuestros últimos cambios pero desde un commit anterior.
