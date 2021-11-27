@@ -35,4 +35,10 @@ En cambio, si usamos git reset HEAD, lo �nico que haremos ser� mover estos c
 Conclusi�n: Lo mejor que puedes hacer para salvar tu puesto y evitar un incendio en tu trabajo es conocer muy bien la diferencia y los riesgos de todos los comandos de Git.
 
 
+<<<<<<< HEAD
 Hey! i am text modified at master an i will need merge with changes cames from sprintResetChanges branch
+=======
+
+
+This the text that will be merged to master branch (Y)
+>>>>>>> sprintResetChanges
