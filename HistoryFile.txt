@@ -60,8 +60,16 @@ git pull orgin localBranch (main in github) : fechts (get) files from remote ori
 
 git log --all --graph --decorate --oneline : show tracked changes decorating merges and commits by each line
 
+git tag : show tags
+
 git tag -a vNumber -m "Tag description" commitNumber : adds a tag to indicated commit
 
 git show-ref --tags : show tags of commits
 
 history : show history of used commands 
+
+git push origin main --tags : send local added tags to remote repository
+
+git tag -d tagName : delete indicated tag
+
+git push origin :ref/tags/v0.02 : sync tags reference on remote an local tags, if a local tag was deleted this action will reflect it on remote repository
