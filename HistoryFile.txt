@@ -22,6 +22,10 @@ git diff commitNumberA  commitNumberB : show difference bettwen tow commits
 git fiff : show difference bettewn work directory and stagging
 git log --stat : log with details
 git checkout commit file : sincy status from commit (or master) indicated of file or entire commit if a specific file is not defined to local repository
+git commit -am "Message" git: add to stage an exisiting file and commited it at same time
+
+
+Git reset HEAD : similar to undo, undo changes of a file and unestage it
 
 checkout : get changes from branch defined or master if not
 
