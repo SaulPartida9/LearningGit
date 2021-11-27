@@ -55,6 +55,6 @@ git remote -v : shor fetch and push origins
 
 git push origin localBranch : pushes changes in local master branch to remote origin
 
-git pull orgin localBranch (master) : fechts (get) files from remote orign to local work direcotry and stagging (local merge)
+git pull orgin localBranch (main in github) : fechts (get) files from remote orign branch to local work direcotry and stagging (local merge) in current local branch (HEAD normally master)
 
 
