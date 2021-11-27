@@ -8,8 +8,9 @@ With git exist next spaces where wor work with our files:
 
 4 Remote repository : you sync your local repository to remote repository to pull or/and push changes between they
 
-git -global username: set username
-git -global email : set email
+git cong -l : shows git configs list
+git config --global user.name "userName": set username
+git config --global user.email "email@domai.com": set email
 
 Git init : inicia el proyecto
 git --list 
@@ -22,15 +23,9 @@ git status : show status of files changed, tracked, untraked, staged, unstaged, 
 git add . : stage all modified files
 git ra --cahed . : unstaged all staged files
 git diff commitNumberA  commitNumberB : show difference bettwen tow commits
-<<<<<<< HEAD
 git diff : show difference bettewn work directory and stagging
 git log --stat : log with details
 git checkout commitfile : sincy status from commit (or master) indicated of file or entire commit if a specific file is not defined to local repository
-=======
-git fiff : show difference bettewn work directory and stagging
-git log --stat : log with details
-git checkout commit file : sincy status from commit (or master) indicated of file or entire commit if a specific file is not defined to local repository
->>>>>>> 3a287cc9f531ab17e87c096207674283ed0a5b6b
 git commit -am "Message" git: add to stage an exisiting file and commited it at same time
 
 
@@ -57,10 +52,16 @@ git remote add origin repositoryLink : sync local repository to remote repositor
 
 git remote : shows origins
 
-git remote -v : shor fetch and push origins
+git remote -v : show fetch and push origins
 
 git push origin localBranch : pushes changes in local master branch to remote origin
 
 git pull orgin localBranch (main in github) : fechts (get) files from remote orign branch to local work direcotry and stagging (local merge) in current local branch (HEAD normally master)
 
+git log --all --graph --decorate --oneline : show tracked changes decorating merges and commits by each line
 
+git tag -a vNumber -m "Tag description" commitNumber : adds a tag to indicated commit
+
+git show-ref --tags : show tags of commits
+
+history : show history of used commands 
