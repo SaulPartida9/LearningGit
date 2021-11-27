@@ -76,3 +76,6 @@ git push origin :ref/tags/v0.02 : sync tags reference on remote an local tags, i
 
 git show-branch : shows brnaches and its history
 
+git push origin altrnateLocalBranch : set to remote repository the indicated local branch
+
+gitk : invike program with tranking commits into current branch
