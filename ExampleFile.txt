@@ -1,3 +1,3 @@
 The porpuse of this file is that it will be reseted a specific version
 
-This line wil be reseted using git reset -hard lastCommitNumber
+The old line was gone an this new line was sent to master instead
