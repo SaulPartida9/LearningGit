@@ -44,3 +44,17 @@ git checkout brancName : switch to indicate branch
 git branch : list branches available into repository
 
 git merge branchNameTeMergeWithActualBranch(Head) : brings the changes into indicate branch to current branch
+
+git restore file : discar changes of indicate file 
+
+git remote add origin repositoryLink : sync local repository to remote repository
+
+git remote : shows origins
+
+git remote -v : shor fetch and push origins
+
+git push origin localBranch : pushes changes in local master branch to remote origin
+
+git pull orgin localBranch (master) : fechts (get) files from remote orign to local work direcotry and stagging (local merge)
+
+
