@@ -22,9 +22,15 @@ git status : show status of files changed, tracked, untraked, staged, unstaged, 
 git add . : stage all modified files
 git ra --cahed . : unstaged all staged files
 git diff commitNumberA  commitNumberB : show difference bettwen tow commits
+<<<<<<< HEAD
 git diff : show difference bettewn work directory and stagging
 git log --stat : log with details
 git checkout commitfile : sincy status from commit (or master) indicated of file or entire commit if a specific file is not defined to local repository
+=======
+git fiff : show difference bettewn work directory and stagging
+git log --stat : log with details
+git checkout commit file : sincy status from commit (or master) indicated of file or entire commit if a specific file is not defined to local repository
+>>>>>>> 3a287cc9f531ab17e87c096207674283ed0a5b6b
 git commit -am "Message" git: add to stage an exisiting file and commited it at same time
 
 
