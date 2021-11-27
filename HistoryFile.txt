@@ -8,6 +8,9 @@ With git exist next spaces where wor work with our files:
 
 4 Remote repository : you sync your local repository to remote repository to pull or/and push changes between they
 
+git -global username: set username
+git -global email : set email
+
 Git init : inicia el proyecto
 git --list 
 git log file.extension
