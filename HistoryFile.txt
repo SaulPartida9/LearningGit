@@ -73,3 +73,6 @@ git push origin main --tags : send local added tags to remote repository
 git tag -d tagName : delete indicated tag
 
 git push origin :ref/tags/v0.02 : sync tags reference on remote an local tags, if a local tag was deleted this action will reflect it on remote repository
+
+git show-branch : shows brnaches and its history
+
