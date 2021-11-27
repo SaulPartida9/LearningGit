@@ -37,3 +37,7 @@ Hay dos formas de usar git reset: con el argumento --hard, borrando toda la info
 
 
 git checkout brancName : switch to indicate branch
+
+git branch : list branches available into repository
+
+git merge branchNameTeMergeWithActualBranch(Head) : brings the changes into indicate branch to current branch
